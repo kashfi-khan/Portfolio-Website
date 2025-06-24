@@ -3,7 +3,7 @@ import { useState } from "react";
 import Loader from "../loader/Loader"; 
 
 const ContactForm = () => {
-  const [loading, setLoading] = useState(false); // loader state
+  const [loading, setLoading] = useState(false); 
 
   const handleSubmit = async (e) => {
     e.preventDefault();
