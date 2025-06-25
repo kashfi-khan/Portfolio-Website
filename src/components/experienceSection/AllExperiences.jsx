@@ -5,9 +5,9 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const experiences = [
   {
-    job: "Front-End Developer",
+    job: "React Native Developer",
     company: "DevExtra Solutions",
-    date: "2023 - 2023",
+    date: "2022 - 2023",
     responsibilities: [
       "Implementing reusable components.",
       "Participating in large scale application.",
@@ -18,7 +18,7 @@ const experiences = [
   {
     job: "Full-Stack Developer",
     company: "Monitr Technologies PVT",
-    date: "2023 - 2024",
+    date: "2024 - 2024",
     responsibilities: [
       "Developed full-stack web applications using MERN Stack",
   "Created RESTful APIs and integrated frontend with backend services.",
@@ -28,7 +28,7 @@ const experiences = [
   {
     job: "MERN Stack",
     company: "Local Freelancing",
-    date: "2024 - Present",
+    date: "2025 - Present",
     responsibilities: [
       "Built MERN stack projects for local clients via Facebook and freelancing sites.",  
   "Handled full project lifecycle from requirements to deployment.",

@@ -5,28 +5,28 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "Vacation of Pakistan",
-    year: "Mar2023",
+    name: "Personal Portfolio",
+    year: "June2025",
     align: "right",
     image: "/images/website-img-1.jpg",
     link: "#",
   },
   {
-    name: "Mi-Store Clone App",
-    year: "Sept2023",
+    name: "E-Commerce App",
+    year: "March2025",
     align: "left",
     image: "/images/website-img-2.webp",
     link: "#",
   },
   {
     name: "Blog App",
-    year: "Jan2024",
+    year: "Sept2024",
     align: "right",
     image: "/images/website-img-3.jpg",
     link: "#",
   },
   {
-    name: "Personal Portfolio",
+    name: "Mi-Store Clone App",
     year: "May2024",
     align: "left",
     image: "/images/website-img-4.jpg",
