@@ -1,37 +1,34 @@
 import Swal from "sweetalert2";
 import { useState } from "react";
-import Loader from "../loader/Loader"; 
+import Loader from "../loader/Loader"; // Make sure this loader exists and looks nice
 
 const ContactForm = () => {
-  const [loading, setLoading] = useState(false); 
+  const [loading, setLoading] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     const form = e.target;
-    setLoading(true); // loader on
+    setLoading(true);
+
+    const formData = new FormData(form);
 
     try {
-      const res = await fetch("https://formsubmit.co/ajax/kashfikhan67@gmail.com", {
+      const res = await fetch("https://formspree.io/f/xqabgqjb", {
         method: "POST",
+        body: formData,
         headers: {
-          "Content-Type": "application/json",
           Accept: "application/json",
         },
-        body: JSON.stringify({
-          name: form.name.value,
-          email: form.email.value,
-          message: form.message.value,
-        }),
       });
 
       const data = await res.json();
-      setLoading(false); // loader off
+      setLoading(false);
 
-      if (data.success === "true") {
+      if (res.ok) {
         Swal.fire("Submitted!", "Your message has been sent!", "success");
         form.reset();
       } else {
-        Swal.fire("Failed!", "Something went wrong!", "error");
+        Swal.fire("Failed!", data.message || "Something went wrong!", "error");
       }
     } catch (err) {
       setLoading(false);
