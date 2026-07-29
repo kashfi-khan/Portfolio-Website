@@ -7,7 +7,7 @@ const experiences = [
   {
     job: "React Native Developer",
     company: "DevExtra Solutions",
-    date: "2022 - 2023",
+    date: "Oct 2022 - March 2023",
     responsibilities: [
       "Implementing reusable components.",
       "Participating in large scale application.",
@@ -18,7 +18,7 @@ const experiences = [
   {
     job: "Full-Stack Developer",
     company: "Monitr Technologies PVT",
-    date: "2024 - 2024",
+    date: "June 2024 - Dec 2024",
     responsibilities: [
       "Developed full-stack web applications using MERN Stack",
   "Created RESTful APIs and integrated frontend with backend services.",
@@ -28,11 +28,20 @@ const experiences = [
   {
     job: "MERN Stack",
     company: "Local Freelancing",
-    date: "2025 - Present",
+    date: "Feb 2025 - Nov 2025",
     responsibilities: [
       "Built MERN stack projects for local clients via Facebook and freelancing sites.",  
   "Handled full project lifecycle from requirements to deployment.",
   "Built MERN stack projects for local clients."
+    ],
+  },
+  {
+    job: "Full Stack Developer | Shopify Developer",
+    company: "Teqnite",
+    date: "Dec 2025 - Feb 2026",
+    responsibilities: [
+      "Working as a Full-Stack Developer building custom Shopify apps for merchants.",
+      "Developed Shopify apps using Remix, now transitioning to React Router for modern app architecture.",            
     ],
   },
 ];
@@ -44,7 +53,7 @@ const AllExperiences = () => {
         return (
           <>
             <SingleExperience key={index} experience={experience} />
-            {index < 2 ? (
+            {index < 3 ? (
               <motion.div
                 variants={fadeIn("right", 0)}
                 initial="hidden"
