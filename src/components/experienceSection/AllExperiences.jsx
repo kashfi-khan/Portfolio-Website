@@ -4,17 +4,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
 const experiences = [
-  {
-    job: "React Native Developer",
-    company: "DevExtra Solutions",
-    date: "Oct 2022 - March 2023",
-    responsibilities: [
-      "Implementing reusable components.",
-      "Participating in large scale application.",
-      "Working on the performance of web & mobile applications.",
-      "Generating new ideas for better user experience.",
-    ],
-  },
+  
   {
     job: "Full-Stack Developer",
     company: "Monitr Technologies PVT",
@@ -27,12 +17,12 @@ const experiences = [
   },
   {
     job: "MERN Stack",
-    company: "Local Freelancing",
+    company: "Freelancing",
     date: "Feb 2025 - Nov 2025",
     responsibilities: [
-      "Built MERN stack projects for local clients via Facebook and freelancing sites.",  
+      "Built projects on MERN for clients via Facebook and freelancing sites.",  
   "Handled full project lifecycle from requirements to deployment.",
-  "Built MERN stack projects for local clients."
+  "Built MERN stack projects for local & international clients."
     ],
   },
   {
@@ -40,10 +30,21 @@ const experiences = [
     company: "Teqnite",
     date: "Dec 2025 - Feb 2026",
     responsibilities: [
-      "Working as a Full-Stack Developer building custom Shopify apps for merchants.",
-      "Developed Shopify apps using Remix, now transitioning to React Router for modern app architecture.",            
+      "Worked as a Full-Stack Developer building custom Shopify apps for merchants.",
+    "Developed a custom Shopify wishlist app using React Router and GraphQL, gaining hands-on API experience.",           
     ],
   },
+  {
+  job: "Self-Directed Developer",
+  company: "Independent / Self-Learning",
+  date: "Feb 2026 - Present",
+  responsibilities: [
+  "Building custom Shopify apps on free Partner development stores to strengthen practical skills.",
+  "Exploring AI integration in MERN apps.",
+  "Applying for remote developer roles.",
+],
+},
+  
 ];
 
 const AllExperiences = () => {
